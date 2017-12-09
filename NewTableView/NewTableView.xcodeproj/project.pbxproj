@@ -14,6 +14,10 @@
 		842F3D321FDC0E5F005FCFA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F3D301FDC0E5F005FCFA8 /* LaunchScreen.storyboard */; };
 		842F3D3C1FDC0E94005FCFA8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F3D3A1FDC0E94005FCFA8 /* HomeViewController.m */; };
 		842F3D3D1FDC0E94005FCFA8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842F3D3B1FDC0E94005FCFA8 /* HomeViewController.xib */; };
+		842F3D411FDC1450005FCFA8 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F3D3F1FDC1450005FCFA8 /* HomeTableViewCell.m */; };
+		842F3D421FDC1450005FCFA8 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842F3D401FDC1450005FCFA8 /* HomeTableViewCell.xib */; };
+		842F3D481FDC15CF005FCFA8 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F3D471FDC15CF005FCFA8 /* HeaderView.m */; };
+		842F3D4A1FDC15DD005FCFA8 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842F3D491FDC15DD005FCFA8 /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,12 @@
 		842F3D391FDC0E94005FCFA8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		842F3D3A1FDC0E94005FCFA8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		842F3D3B1FDC0E94005FCFA8 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		842F3D3E1FDC1450005FCFA8 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		842F3D3F1FDC1450005FCFA8 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		842F3D401FDC1450005FCFA8 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		842F3D461FDC15CF005FCFA8 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		842F3D471FDC15CF005FCFA8 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		842F3D491FDC15DD005FCFA8 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +80,12 @@
 				842F3D391FDC0E94005FCFA8 /* HomeViewController.h */,
 				842F3D3A1FDC0E94005FCFA8 /* HomeViewController.m */,
 				842F3D3B1FDC0E94005FCFA8 /* HomeViewController.xib */,
+				842F3D3E1FDC1450005FCFA8 /* HomeTableViewCell.h */,
+				842F3D3F1FDC1450005FCFA8 /* HomeTableViewCell.m */,
+				842F3D401FDC1450005FCFA8 /* HomeTableViewCell.xib */,
+				842F3D461FDC15CF005FCFA8 /* HeaderView.h */,
+				842F3D471FDC15CF005FCFA8 /* HeaderView.m */,
+				842F3D491FDC15DD005FCFA8 /* HeaderView.xib */,
 			);
 			path = NewTableView;
 			sourceTree = "<group>";
@@ -143,6 +159,8 @@
 				842F3D321FDC0E5F005FCFA8 /* LaunchScreen.storyboard in Resources */,
 				842F3D2F1FDC0E5F005FCFA8 /* Assets.xcassets in Resources */,
 				842F3D2D1FDC0E5F005FCFA8 /* Main.storyboard in Resources */,
+				842F3D4A1FDC15DD005FCFA8 /* HeaderView.xib in Resources */,
+				842F3D421FDC1450005FCFA8 /* HomeTableViewCell.xib in Resources */,
 				842F3D3D1FDC0E94005FCFA8 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,7 +173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				842F3D271FDC0E5F005FCFA8 /* AppDelegate.m in Sources */,
+				842F3D481FDC15CF005FCFA8 /* HeaderView.m in Sources */,
 				842F3D241FDC0E5F005FCFA8 /* main.m in Sources */,
+				842F3D411FDC1450005FCFA8 /* HomeTableViewCell.m in Sources */,
 				842F3D3C1FDC0E94005FCFA8 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
