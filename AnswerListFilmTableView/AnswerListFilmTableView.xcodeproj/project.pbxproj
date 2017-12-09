@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842F3CDB1FDBEFCC005FCFA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F3CDA1FDBEFCC005FCFA8 /* main.m */; };
+		842F3CDE1FDBEFCC005FCFA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F3CDD1FDBEFCC005FCFA8 /* AppDelegate.m */; };
+		842F3CE41FDBEFCC005FCFA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F3CE21FDBEFCC005FCFA8 /* Main.storyboard */; };
+		842F3CE61FDBEFCC005FCFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842F3CE51FDBEFCC005FCFA8 /* Assets.xcassets */; };
+		842F3CE91FDBEFCC005FCFA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F3CE71FDBEFCC005FCFA8 /* LaunchScreen.storyboard */; };
+		842F3CF21FDBF106005FCFA8 /* FilmListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F3CF11FDBF106005FCFA8 /* FilmListViewController.m */; };
+		842F3CF61FDBF574005FCFA8 /* FilmTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F3CF41FDBF574005FCFA8 /* FilmTableViewCell.m */; };
+		842F3CF71FDBF574005FCFA8 /* FilmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842F3CF51FDBF574005FCFA8 /* FilmTableViewCell.xib */; };
+		842F3D031FDBF81C005FCFA8 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 842F3CF91FDBF81C005FCFA8 /* Data.plist */; };
+		842F3D041FDBF81C005FCFA8 /* hinh1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 842F3CFA1FDBF81C005FCFA8 /* hinh1.jpg */; };
+		842F3D051FDBF81C005FCFA8 /* hinh2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 842F3CFB1FDBF81C005FCFA8 /* hinh2.jpg */; };
+		842F3D061FDBF81C005FCFA8 /* hinh3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 842F3CFC1FDBF81C005FCFA8 /* hinh3.jpg */; };
+		842F3D071FDBF81C005FCFA8 /* hinh4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 842F3CFD1FDBF81C005FCFA8 /* hinh4.jpg */; };
+		842F3D081FDBF81C005FCFA8 /* hinh5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 842F3CFE1FDBF81C005FCFA8 /* hinh5.jpg */; };
+		842F3D091FDBF81C005FCFA8 /* hinh6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 842F3CFF1FDBF81C005FCFA8 /* hinh6.jpg */; };
+		842F3D0A1FDBF81C005FCFA8 /* hinh7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 842F3D001FDBF81C005FCFA8 /* hinh7.jpg */; };
+		842F3D0B1FDBF81C005FCFA8 /* hinh8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 842F3D011FDBF81C005FCFA8 /* hinh8.jpg */; };
+		842F3D0C1FDBF81C005FCFA8 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 842F3D021FDBF81C005FCFA8 /* star.png */; };
+		842F3D121FDBFC45005FCFA8 /* FilmModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F3D111FDBFC45005FCFA8 /* FilmModel.m */; };
+		842F3D151FDC0BCB005FCFA8 /* FilmDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F3D141FDC0BCB005FCFA8 /* FilmDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		842F3CD61FDBEFCC005FCFA8 /* AnswerListFilmTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnswerListFilmTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842F3CDA1FDBEFCC005FCFA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842F3CDC1FDBEFCC005FCFA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		842F3CDD1FDBEFCC005FCFA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		842F3CE31FDBEFCC005FCFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842F3CE51FDBEFCC005FCFA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842F3CE81FDBEFCC005FCFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842F3CEA1FDBEFCC005FCFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842F3CF01FDBF106005FCFA8 /* FilmListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmListViewController.h; sourceTree = "<group>"; };
+		842F3CF11FDBF106005FCFA8 /* FilmListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmListViewController.m; sourceTree = "<group>"; };
+		842F3CF31FDBF574005FCFA8 /* FilmTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmTableViewCell.h; sourceTree = "<group>"; };
+		842F3CF41FDBF574005FCFA8 /* FilmTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmTableViewCell.m; sourceTree = "<group>"; };
+		842F3CF51FDBF574005FCFA8 /* FilmTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilmTableViewCell.xib; sourceTree = "<group>"; };
+		842F3CF91FDBF81C005FCFA8 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		842F3CFA1FDBF81C005FCFA8 /* hinh1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hinh1.jpg; sourceTree = "<group>"; };
+		842F3CFB1FDBF81C005FCFA8 /* hinh2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hinh2.jpg; sourceTree = "<group>"; };
+		842F3CFC1FDBF81C005FCFA8 /* hinh3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hinh3.jpg; sourceTree = "<group>"; };
+		842F3CFD1FDBF81C005FCFA8 /* hinh4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hinh4.jpg; sourceTree = "<group>"; };
+		842F3CFE1FDBF81C005FCFA8 /* hinh5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hinh5.jpg; sourceTree = "<group>"; };
+		842F3CFF1FDBF81C005FCFA8 /* hinh6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hinh6.jpg; sourceTree = "<group>"; };
+		842F3D001FDBF81C005FCFA8 /* hinh7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hinh7.jpg; sourceTree = "<group>"; };
+		842F3D011FDBF81C005FCFA8 /* hinh8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hinh8.jpg; sourceTree = "<group>"; };
+		842F3D021FDBF81C005FCFA8 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		842F3D101FDBFC45005FCFA8 /* FilmModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmModel.h; sourceTree = "<group>"; };
+		842F3D111FDBFC45005FCFA8 /* FilmModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmModel.m; sourceTree = "<group>"; };
+		842F3D131FDC0BCB005FCFA8 /* FilmDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmDetailViewController.h; sourceTree = "<group>"; };
+		842F3D141FDC0BCB005FCFA8 /* FilmDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842F3CD31FDBEFCC005FCFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842F3CCD1FDBEFCC005FCFA8 = {
+			isa = PBXGroup;
+			children = (
+				842F3CD81FDBEFCC005FCFA8 /* AnswerListFilmTableView */,
+				842F3CD71FDBEFCC005FCFA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842F3CD71FDBEFCC005FCFA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842F3CD61FDBEFCC005FCFA8 /* AnswerListFilmTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842F3CD81FDBEFCC005FCFA8 /* AnswerListFilmTableView */ = {
+			isa = PBXGroup;
+			children = (
+				842F3D0E1FDBF9EB005FCFA8 /* Resource */,
+				842F3CDC1FDBEFCC005FCFA8 /* AppDelegate.h */,
+				842F3CDD1FDBEFCC005FCFA8 /* AppDelegate.m */,
+				842F3CE21FDBEFCC005FCFA8 /* Main.storyboard */,
+				842F3CE51FDBEFCC005FCFA8 /* Assets.xcassets */,
+				842F3CE71FDBEFCC005FCFA8 /* LaunchScreen.storyboard */,
+				842F3CEA1FDBEFCC005FCFA8 /* Info.plist */,
+				842F3CD91FDBEFCC005FCFA8 /* Supporting Files */,
+				842F3CF01FDBF106005FCFA8 /* FilmListViewController.h */,
+				842F3CF11FDBF106005FCFA8 /* FilmListViewController.m */,
+				842F3CF31FDBF574005FCFA8 /* FilmTableViewCell.h */,
+				842F3CF41FDBF574005FCFA8 /* FilmTableViewCell.m */,
+				842F3CF51FDBF574005FCFA8 /* FilmTableViewCell.xib */,
+				842F3D101FDBFC45005FCFA8 /* FilmModel.h */,
+				842F3D111FDBFC45005FCFA8 /* FilmModel.m */,
+				842F3D131FDC0BCB005FCFA8 /* FilmDetailViewController.h */,
+				842F3D141FDC0BCB005FCFA8 /* FilmDetailViewController.m */,
+			);
+			path = AnswerListFilmTableView;
+			sourceTree = "<group>";
+		};
+		842F3CD91FDBEFCC005FCFA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				842F3CDA1FDBEFCC005FCFA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		842F3D0E1FDBF9EB005FCFA8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				842F3CF91FDBF81C005FCFA8 /* Data.plist */,
+				842F3CFA1FDBF81C005FCFA8 /* hinh1.jpg */,
+				842F3CFB1FDBF81C005FCFA8 /* hinh2.jpg */,
+				842F3CFC1FDBF81C005FCFA8 /* hinh3.jpg */,
+				842F3CFD1FDBF81C005FCFA8 /* hinh4.jpg */,
+				842F3CFE1FDBF81C005FCFA8 /* hinh5.jpg */,
+				842F3CFF1FDBF81C005FCFA8 /* hinh6.jpg */,
+				842F3D001FDBF81C005FCFA8 /* hinh7.jpg */,
+				842F3D011FDBF81C005FCFA8 /* hinh8.jpg */,
+				842F3D021FDBF81C005FCFA8 /* star.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842F3CD51FDBEFCC005FCFA8 /* AnswerListFilmTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842F3CED1FDBEFCC005FCFA8 /* Build configuration list for PBXNativeTarget "AnswerListFilmTableView" */;
+			buildPhases = (
+				842F3CD21FDBEFCC005FCFA8 /* Sources */,
+				842F3CD31FDBEFCC005FCFA8 /* Frameworks */,
+				842F3CD41FDBEFCC005FCFA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnswerListFilmTableView;
+			productName = AnswerListFilmTableView;
+			productReference = 842F3CD61FDBEFCC005FCFA8 /* AnswerListFilmTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842F3CCE1FDBEFCC005FCFA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = TNKHANH;
+				TargetAttributes = {
+					842F3CD51FDBEFCC005FCFA8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 842F3CD11FDBEFCC005FCFA8 /* Build configuration list for PBXProject "AnswerListFilmTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842F3CCD1FDBEFCC005FCFA8;
+			productRefGroup = 842F3CD71FDBEFCC005FCFA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842F3CD51FDBEFCC005FCFA8 /* AnswerListFilmTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842F3CD41FDBEFCC005FCFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842F3D051FDBF81C005FCFA8 /* hinh2.jpg in Resources */,
+				842F3D071FDBF81C005FCFA8 /* hinh4.jpg in Resources */,
+				842F3CE91FDBEFCC005FCFA8 /* LaunchScreen.storyboard in Resources */,
+				842F3D061FDBF81C005FCFA8 /* hinh3.jpg in Resources */,
+				842F3D031FDBF81C005FCFA8 /* Data.plist in Resources */,
+				842F3CF71FDBF574005FCFA8 /* FilmTableViewCell.xib in Resources */,
+				842F3CE61FDBEFCC005FCFA8 /* Assets.xcassets in Resources */,
+				842F3D041FDBF81C005FCFA8 /* hinh1.jpg in Resources */,
+				842F3D081FDBF81C005FCFA8 /* hinh5.jpg in Resources */,
+				842F3CE41FDBEFCC005FCFA8 /* Main.storyboard in Resources */,
+				842F3D0B1FDBF81C005FCFA8 /* hinh8.jpg in Resources */,
+				842F3D0C1FDBF81C005FCFA8 /* star.png in Resources */,
+				842F3D0A1FDBF81C005FCFA8 /* hinh7.jpg in Resources */,
+				842F3D091FDBF81C005FCFA8 /* hinh6.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842F3CD21FDBEFCC005FCFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842F3D121FDBFC45005FCFA8 /* FilmModel.m in Sources */,
+				842F3CF21FDBF106005FCFA8 /* FilmListViewController.m in Sources */,
+				842F3CF61FDBF574005FCFA8 /* FilmTableViewCell.m in Sources */,
+				842F3CDE1FDBEFCC005FCFA8 /* AppDelegate.m in Sources */,
+				842F3CDB1FDBEFCC005FCFA8 /* main.m in Sources */,
+				842F3D151FDC0BCB005FCFA8 /* FilmDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		842F3CE21FDBEFCC005FCFA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842F3CE31FDBEFCC005FCFA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842F3CE71FDBEFCC005FCFA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842F3CE81FDBEFCC005FCFA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842F3CEB1FDBEFCC005FCFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		842F3CEC1FDBEFCC005FCFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842F3CEE1FDBEFCC005FCFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnswerListFilmTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = t3h.vn.AnswerListFilmTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		842F3CEF1FDBEFCC005FCFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnswerListFilmTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = t3h.vn.AnswerListFilmTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842F3CD11FDBEFCC005FCFA8 /* Build configuration list for PBXProject "AnswerListFilmTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842F3CEB1FDBEFCC005FCFA8 /* Debug */,
+				842F3CEC1FDBEFCC005FCFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842F3CED1FDBEFCC005FCFA8 /* Build configuration list for PBXNativeTarget "AnswerListFilmTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842F3CEE1FDBEFCC005FCFA8 /* Debug */,
+				842F3CEF1FDBEFCC005FCFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842F3CCE1FDBEFCC005FCFA8 /* Project object */;
+}
