@@ -76,6 +76,10 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if([[segue identifier]isEqualToString:@"DetailView"]) {
         FilmDetailViewController *detailView = (FilmDetailViewController *)[segue destinationViewController];
+      NSLog(@"%@", sender);
+      detailView.film = sender;
+      UIBarButtonItem *backItem = [[UIBarButtonItem alloc]initWithTitle:@"Trở về" style:UIBarButtonItemStylePlain target:nil action:nil];
+      [self.navigationItem setBackBarButtonItem:backItem];
     }
 }
 

@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "FilmModel.h"
 
-@interface FilmDetailViewController : UIViewController
+@interface FilmDetailViewController : UIViewController {
+  UIScrollView *filmDetailScrollView;
+}
 
-@property (nonatomic,strong) FilmModel* film;
+@property (nonatomic,assign) FilmModel* film;
 
 @end
