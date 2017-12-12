@@ -5,13 +5,13 @@
 //  Created by TNKHANH on 12/9/17.
 //  Copyright © 2017 TNKHANH. All rights reserved.
 //
-#define SCREEN_WIDTH [[UIScreen mainScreen]bounds].size.width
-#define SCREEN_HEIGHT [[UIScreen mainScreen]bounds].size.height
-#define STATUS_HEIGHT 20
-#define NAV_HEIGHT 44
-#define IMAGE_VIEW_WIDTH 120
-#define IMAGE_VIEW_HEIGHT 150
-#define LABEL_HEIGHT 30
+//#define SCREEN_WIDTH [[UIScreen mainScreen]bounds].size.width
+//#define SCREEN_HEIGHT [[UIScreen mainScreen]bounds].size.height
+//#define STATUS_HEIGHT 20
+//#define NAV_HEIGHT 44
+//#define IMAGE_VIEW_WIDTH 120
+//#define IMAGE_VIEW_HEIGHT 150
+//#define LABEL_HEIGHT 30
 
 #import "FilmDetailViewController.h"
 
@@ -94,13 +94,13 @@
   [detailHeaderLbl sizeToFit];
   [filmDetailScrollView addSubview:detailHeaderLbl];
   
-  UILabel *detailContentLbl = [[UILabel alloc]initWithFrame:CGRectMake(4, detailHeaderLbl.frame.origin.y + 30, SCREEN_WIDTH + 30, 30)];
-  
-  detailContentLbl.lineBreakMode = NSLineBreakByWordWrapping;
+  UILabel *detailContentLbl = [[UILabel alloc]initWithFrame:CGRectMake(4, detailHeaderLbl.frame.origin.y + 30, SCREEN_WIDTH-8, 30)];
   detailContentLbl.numberOfLines = 0;
-  [detailContentLbl setText:[film filmContent]];
-  [detailHeaderLbl sizeToFit];
   [filmDetailScrollView addSubview:detailContentLbl];
+    [detailContentLbl setText:[film filmContent]];
+    [detailContentLbl sizeToFit];
+    
+    [filmDetailScrollView setContentSize:CGSizeMake(SCREEN_WIDTH, detailContentLbl.frame.origin.y+detailContentLbl.bounds.size.height+10)];
 }
 
 - (void)didReceiveMemoryWarning {

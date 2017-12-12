@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8422C1801FDFFE800031455C /* ContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422C17F1FDFFE800031455C /* ContentManager.m */; };
+		8422C1831FE003D30031455C /* FixContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422C1821FE003D30031455C /* FixContentManager.m */; };
 		842F3CDB1FDBEFCC005FCFA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F3CDA1FDBEFCC005FCFA8 /* main.m */; };
 		842F3CDE1FDBEFCC005FCFA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F3CDD1FDBEFCC005FCFA8 /* AppDelegate.m */; };
 		842F3CE41FDBEFCC005FCFA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F3CE21FDBEFCC005FCFA8 /* Main.storyboard */; };
@@ -30,6 +32,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8422C17E1FDFFE800031455C /* ContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentManager.h; sourceTree = "<group>"; };
+		8422C17F1FDFFE800031455C /* ContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentManager.m; sourceTree = "<group>"; };
+		8422C1811FE003D30031455C /* FixContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixContentManager.h; sourceTree = "<group>"; };
+		8422C1821FE003D30031455C /* FixContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixContentManager.m; sourceTree = "<group>"; };
+		8422C1841FE0088D0031455C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8422C1871FE008E20031455C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		842F3CD61FDBEFCC005FCFA8 /* AnswerListFilmTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnswerListFilmTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F3CDA1FDBEFCC005FCFA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		842F3CDC1FDBEFCC005FCFA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +114,12 @@
 				842F3D111FDBFC45005FCFA8 /* FilmModel.m */,
 				842F3D131FDC0BCB005FCFA8 /* FilmDetailViewController.h */,
 				842F3D141FDC0BCB005FCFA8 /* FilmDetailViewController.m */,
+				8422C17E1FDFFE800031455C /* ContentManager.h */,
+				8422C17F1FDFFE800031455C /* ContentManager.m */,
+				8422C1811FE003D30031455C /* FixContentManager.h */,
+				8422C1821FE003D30031455C /* FixContentManager.m */,
+				8422C1841FE0088D0031455C /* Constants.h */,
+				8422C1871FE008E20031455C /* PrefixHeader.pch */,
 			);
 			path = AnswerListFilmTableView;
 			sourceTree = "<group>";
@@ -219,6 +233,8 @@
 			files = (
 				842F3D121FDBFC45005FCFA8 /* FilmModel.m in Sources */,
 				842F3CF21FDBF106005FCFA8 /* FilmListViewController.m in Sources */,
+				8422C1801FDFFE800031455C /* ContentManager.m in Sources */,
+				8422C1831FE003D30031455C /* FixContentManager.m in Sources */,
 				842F3CF61FDBF574005FCFA8 /* FilmTableViewCell.m in Sources */,
 				842F3CDE1FDBEFCC005FCFA8 /* AppDelegate.m in Sources */,
 				842F3CDB1FDBEFCC005FCFA8 /* main.m in Sources */,
@@ -340,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = AnswerListFilmTableView/PrefixHeader.pch;
 				INFOPLIST_FILE = AnswerListFilmTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = t3h.vn.AnswerListFilmTableView;
@@ -351,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = AnswerListFilmTableView/PrefixHeader.pch;
 				INFOPLIST_FILE = AnswerListFilmTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = t3h.vn.AnswerListFilmTableView;
@@ -377,6 +395,7 @@
 				842F3CEF1FDBEFCC005FCFA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

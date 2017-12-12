@@ -6,16 +6,18 @@
 //  Copyright © 2017 TNKHANH. All rights reserved.
 //
 
-#define SCREEN_WIDTH [[UIScreen mainScreen]bounds].size.width
-#define SCREEN_HEIGHT [[UIScreen mainScreen]bounds].size.height
-#define STATUS_HEIGHT 20
-#define NAV_HEIGHT 44
-#define KEY_FILM_PLAYING @"FilmsPlaying"
+//#define SCREEN_WIDTH [[UIScreen mainScreen]bounds].size.width
+//#define SCREEN_HEIGHT [[UIScreen mainScreen]bounds].size.height
+//#define STATUS_HEIGHT 20
+//#define NAV_HEIGHT 44
+//#define KEY_FILM_PLAYING @"FilmsPlaying"
 
 #import "FilmListViewController.h"
 #import "FilmTableViewCell.h"
 #import "FilmModel.h"
 #import "FilmDetailViewController.h"
+//#import "ContentManager.h"
+//#import "FixContentManager.h"
 
 @interface FilmListViewController ()
 
@@ -60,13 +62,17 @@
 }
 
 -(void)getData {
-    NSString *filePath = [[NSBundle mainBundle]pathForResource:@"Data" ofType:@"plist"];
-    NSDictionary *filmDict = [NSDictionary dictionaryWithContentsOfFile:filePath];
+//    NSDictionary *filmDict = [[ContentManager shareManager]getFileDict:@"Data"];
+//    NSString *filePath = [[NSBundle mainBundle]pathForResource:@"Data" ofType:@"plist"];
+//    NSDictionary *filmDict = [NSDictionary dictionaryWithContentsOfFile:filePath];
     filmList = [[NSMutableArray alloc]init];
-    for(NSDictionary *temp in [filmDict objectForKey:KEY_FILM_PLAYING]) {
-//        NSLog(@"data %@", temp);
-        [filmList addObject:[FilmModel filmModelFromDictionary:temp]];
-    }
+//    for(NSDictionary *temp in [filmDict objectForKey:KEY_FILM_PLAYING]) {
+//        [filmList addObject:[FilmModel filmModelFromDictionary:temp]];
+//    }
+    
+    [filmList addObjectsFromArray:[[FixContentManager fShareManager]getFilmList]];
+//    filmList = [[ContentManager shareManager]getFilmList:@"Data"];
+     [filmListTableView reloadData];
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
